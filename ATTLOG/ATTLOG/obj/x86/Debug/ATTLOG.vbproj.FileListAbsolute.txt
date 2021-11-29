@@ -1,0 +1,5 @@
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\x86\Debug\ATTLOG.Branch.resources
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\x86\Debug\ATTLOG.Form1.resources
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\x86\Debug\ATTLOG.Resources.resources
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\x86\Debug\ATTLOG.vbproj.GenerateResource.cache
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\x86\Debug\ATTLOG.vbproj.CoreCompileInputs.cache

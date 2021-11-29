@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ATTLOG
+</name>
+</assembly>
+<members>
+<member name="T:ATTLOG.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ATTLOG.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ATTLOG.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.AttendanceLogDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.BranchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.EmployeeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.AttInOutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.InfoWithTimeInDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.AttendanceLogRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.BranchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.EmployeeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.AttInOutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.InfoWithTimeInRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.AttendanceLogRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.BranchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.EmployeeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.AttInOutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSet.InfoWithTimeInRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.AttendanceLogTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.BranchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.EmployeeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.AttInOutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.InfoWithTimeInTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ATTLOG.attLogDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ATTLOG.attLogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ATTLOG.attLogDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.UpdateAll(ATTLOG.attLogDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ATTLOG.attLogDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

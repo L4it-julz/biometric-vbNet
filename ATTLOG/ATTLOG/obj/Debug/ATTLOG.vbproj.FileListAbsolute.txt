@@ -1,0 +1,15 @@
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\bin\Debug\ATTLOG.exe.config
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\bin\Debug\ATTLOG.exe
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\bin\Debug\ATTLOG.pdb
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\bin\Debug\ATTLOG.xml
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.vbprojAssemblyReference.cache
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.Resources.resources
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.vbproj.GenerateResource.cache
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.vbproj.CoreCompileInputs.cache
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.exe
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.xml
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.pdb
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\bin\Debug\attLog.accdb
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.Form1.resources
+C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.Branch.resources
+C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\obj\Debug\ATTLOG.Employee.resources
