@@ -13,3 +13,8 @@ C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\bin\Debug\attLog.accdb
 C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.Form1.resources
 C:\Users\Julz\vbProject\biometric-vbNet\ATTLOG\ATTLOG\obj\Debug\ATTLOG.Branch.resources
 C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\obj\Debug\ATTLOG.Employee.resources
+C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\bin\Debug\ATTLOG.exe.manifest
+C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\bin\Debug\ATTLOG.application
+C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\obj\Debug\ATTLOG.TrustInfo.xml
+C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\obj\Debug\ATTLOG.exe.manifest
+C:\Users\Julz\vbProject\biometric-vbNet\AttLog\ATTLOG\obj\Debug\ATTLOG.application

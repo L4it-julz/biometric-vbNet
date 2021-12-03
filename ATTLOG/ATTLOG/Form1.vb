@@ -58,11 +58,19 @@
                         TextBox2.Text = ""
                         TextBox3.Text = ""
                         TextBox4.Text = ""
+                        ListView1.Items.Clear()
 
                     Else
+                        Dim x As Integer = 0
                         TextBox2.Text = myreader("externalID")
                         TextBox3.Text = myreader("realName")
                         TextBox4.Text = myreader("branchName")
+
+                        ListView1.Items.Add(myreader("datelog"))
+                        ListView1.Items(x).SubItems.Add(myreader("timelog"))
+                        x = x + 1
+
+
                     End If
 
                 End While
