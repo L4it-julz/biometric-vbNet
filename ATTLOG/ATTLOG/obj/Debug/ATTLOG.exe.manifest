@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ATTLOG.exe" size="152472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ATTLOG.exe" size="154008">
       <assemblyIdentity name="ATTLOG" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>o6/HhiUtawSWbgNRW9em5FllkxKwmZOGnNqfwFVa8Vk=</dsig:DigestValue>
+        <dsig:DigestValue>uc8GsiW48XGws6+/InzqJxgw6O2E0T2ni6oRuN/DdrA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

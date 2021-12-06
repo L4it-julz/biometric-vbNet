@@ -50,16 +50,20 @@ Partial Class Form1
         Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.AttLogDataSet = New ATTLOG.attLogDataSet()
+        Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ExportLogsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.AttLogDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.BackColor = System.Drawing.Color.AliceBlue
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SetupToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SetupToolStripMenuItem, Me.ExportLogsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 24)
@@ -68,7 +72,7 @@ Partial Class Form1
         '
         'SetupToolStripMenuItem
         '
-        Me.SetupToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BranchToolStripMenuItem, Me.EmployeeToolStripMenuItem})
+        Me.SetupToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BranchToolStripMenuItem, Me.EmployeeToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.SetupToolStripMenuItem.Name = "SetupToolStripMenuItem"
         Me.SetupToolStripMenuItem.Size = New System.Drawing.Size(49, 20)
         Me.SetupToolStripMenuItem.Text = "Setup"
@@ -76,13 +80,13 @@ Partial Class Form1
         'BranchToolStripMenuItem
         '
         Me.BranchToolStripMenuItem.Name = "BranchToolStripMenuItem"
-        Me.BranchToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.BranchToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.BranchToolStripMenuItem.Text = "Branch"
         '
         'EmployeeToolStripMenuItem
         '
         Me.EmployeeToolStripMenuItem.Name = "EmployeeToolStripMenuItem"
-        Me.EmployeeToolStripMenuItem.Size = New System.Drawing.Size(126, 22)
+        Me.EmployeeToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.EmployeeToolStripMenuItem.Text = "Employee"
         '
         'Label1
@@ -158,7 +162,7 @@ Partial Class Form1
         Me.ListView1.HideSelection = False
         Me.ListView1.Location = New System.Drawing.Point(14, 159)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(443, 158)
+        Me.ListView1.Size = New System.Drawing.Size(303, 158)
         Me.ListView1.TabIndex = 7
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -166,12 +170,12 @@ Partial Class Form1
         'ColumnHeader1
         '
         Me.ColumnHeader1.Text = "DATE"
-        Me.ColumnHeader1.Width = 250
+        Me.ColumnHeader1.Width = 190
         '
         'ColumnHeader2
         '
         Me.ColumnHeader2.Text = "TIME"
-        Me.ColumnHeader2.Width = 200
+        Me.ColumnHeader2.Width = 100
         '
         'TextBox4
         '
@@ -284,12 +288,30 @@ Partial Class Form1
         Me.Panel1.Size = New System.Drawing.Size(309, 65)
         Me.Panel1.TabIndex = 9
         '
+        'AttLogDataSet
+        '
+        Me.AttLogDataSet.DataSetName = "attLogDataSet"
+        Me.AttLogDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'ExportLogsToolStripMenuItem
+        '
+        Me.ExportLogsToolStripMenuItem.Name = "ExportLogsToolStripMenuItem"
+        Me.ExportLogsToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
+        Me.ExportLogsToolStripMenuItem.Text = "Export Logs"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ListView2)
         Me.Controls.Add(Me.Label1)
@@ -299,6 +321,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Panel1)
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Attendance"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -307,6 +330,7 @@ Partial Class Form1
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.AttLogDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -338,4 +362,7 @@ Partial Class Form1
     Friend WithEvents ColumnHeader5 As ColumnHeader
     Friend WithEvents Label2 As Label
     Friend WithEvents Panel1 As Panel
+    Friend WithEvents AttLogDataSet As attLogDataSet
+    Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ExportLogsToolStripMenuItem As ToolStripMenuItem
 End Class

@@ -26,6 +26,8 @@
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'AttLogDataSet.InfoWithTimeIn' table. You can move, or remove it, as needed.
+        Me.InfoWithTimeInTableAdapter.Fill(Me.AttLogDataSet.InfoWithTimeIn)
 
         Try
             con.Open()
@@ -85,5 +87,9 @@
             con.Close()
 
         End Try
+    End Sub
+
+    Private Sub ExitToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ExitToolStripMenuItem.Click
+        Me.Close()
     End Sub
 End Class
